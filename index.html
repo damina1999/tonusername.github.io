@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouhamed Amine Chouaikhia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+    </div>
+
+    <main class="container">
+        <!-- Sidebar / Header Section -->
+        <aside class="profile-card glass-panel fade-in">
+            <div class="profile-header">
+                <div class="image-container">
+                    <img src="amine.png" alt="Photo de profil" id="profile-img">
+                </div>
+                <h1 class="name">Mouhamed Amine Chouaikhia</h1>
+                <h2 class="role">Embedded systems & IOT Developer</h2>
+                <div class="status-badge">
+                    <span class="pulse"></span> Disponible pour projets
+                </div>
+            </div>
+
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>mouhamedaminechouaikhia9@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+(216) 21264085 </span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Boumhal el bassetine </span>
+
+                </div>
+                <div class="info-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span><a href="https://www.linkedin.com/in/mouhamed-amine-chouaikhia-a34a7028a/" target="_blank"
+                            style="color: #94a3b8;">Profile
+                            linkedin</a></span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-brands fa-github"></i>
+
+                    <span><a href="https://github.com/damina1999" target="_blank" style="color: #94a3b8;">Profile
+                            github</a></span>
+                </div>
+            </div>
+
+            <div class="skills-section">
+                <h3><i class="fa-solid fa-microchip"></i> Compétences Techniques</h3>
+                <div class="tags">
+                    <span>C/C++</span>
+                    <span>ESP32</span>
+                    <span>MQTT</span>
+                    <span>PCB Design</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Django</span>
+                    <span>Git</span>
+                    <span>Electricité</span>
+                    <span>Électronique</span>
+
+                </div>
+            </div>
+
+            <div class="languages-section">
+                <h3><i class="fa-solid fa-language"></i> Langues</h3>
+                <ul class="lang-list">
+                    <li>
+                        <span>Français</span>
+                        <div class="bar">
+                            <div class="fill" style="width: 100%"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>Anglais</span>
+                        <div class="bar">
+                            <div class="fill" style="width: 90%"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="download-btn" onclick="window.print()">
+                <i class="fa-solid fa-download"></i> Télécharger CV
+            </button>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="main-content">
+
+            <!-- About Section -->
+            <section class="section glass-panel fade-in slide-up" style="--delay: 100ms">
+                <h2 class="section-title"><i class="fa-solid fa-user-astronaut"></i> Profil Professionnel</h2>
+                <p class="summary-text"><strong>
+                        Titulaire d’une licence en Génie Logiciel et Systèmes d’Information, et fort de 2 années
+                        d’expérience en tant que développeur Embedded Systems & IoT, je possède de solides compétences
+                        en
+                        développement logiciel, technologies web et systèmes embarqués, je conçois des
+                        architectures robustes et sécurisées pour l'industrie 4.0.</strong>
+                </p>
+            </section>
+
+            <!-- Experience Section -->
+            <section class="section glass-panel fade-in slide-up" style="--delay: 200ms">
+                <h2 class="section-title"><i class="fa-solid fa-briefcase"></i> Expérience Professionnelle</h2>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 - Présent</div>
+                        <div class="timeline-content">
+                            <h3>Embedded Systems & IoT Developer</h3>
+                            <h4>Canadian System & Technology</h4>
+                            <p class="location"><i class="fa-solid fa-map-pin"></i> Monplaisir, Tunis</p>
+                            <ul>
+                                <li>Développement de firmware pour microcontrôleurs (ESP32) utilisant Arduino IDE
+                                    ,Platformio .
+                                </li>
+                                <li>Mise en œuvre de protocoles IoT sécurisés (MQTT sur TLS, HTTPS) pour la télémétrie
+                                    temps réel.</li>
+                                <li>Conception de circuits imprimés (PCB) multicouches et prototypage rapide.</li>
+                                <li>Optimisation de la consommation énergétique pour des dispositifs sur batterie (Low
+                                    Power modes).</li>
+                                <li>Création des Dashboard pour la visualisation des données
+                                    collectées.(Assyncwebserver) </li>
+                                <li>stockage des données collectées su sd-card pour assurer l'existance des données en
+                                    cas de coupure de l'internet</li>
+                                <li>Mise en place d'un système de mise à jour OTA (Over-The-Air) pour la maintenance
+                                    à distance.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Du 18/07/2022 au 17/08/2022</div>
+                        <div class="timeline-content">
+                            <h3> Stage de PFE (Projet de fin d’Etudes ) </h3>
+                            <h4>WEBUP</h4>
+                            <p class="location"><i class="fa-solid fa-map-pin"></i> Kef, Tunisia</p>
+                            <ul>
+                                <li> Conception et développement d’un site web e-commerce </li>
+                                <li> Etude de l’existant.</li>
+                                <li>Analyse et spécification des besoins.</li>
+                                <li>Conception et Réalisation de l’application.</li>
+                                <li>Tests et débogage pour assurer la stabilité et la convivialité de l’application</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="section glass-panel fade-in slide-up" style="--delay: 300ms">
+                <h2 class="section-title"><i class="fa-solid fa-diagram-project"></i> Projets Réalisés</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fa-solid fa-wifi"></i></div>
+                        <h3>Contrôles d'accès au milieux stériles (Laboratoires pharmaceutiques SAIPH)</h3>
+                        <p>30 micro processeurs Esp32 connectés à un serveur central via wifi.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <h3>Appareille de mesure température GPS GPRS (Laboratoire
+                            dhaouadi)</h3>
+                        <p> ESP32 , Carte SIM , capteur de température , MQTT , SD. </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section class="section glass-panel fade-in slide-up" style="--delay: 400ms">
+                <h2 class="section-title"><i class="fa-solid fa-graduation-cap"></i> Formation</h2>
+                <div class="education-item">
+                    <h3>Baccalauréat en sciences informatiques </h3>
+                    <h4>Institut supérieur de l’informatique du Kef</h4>
+                    <p>licence en génie logiciel et systèmes d'informations</p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
